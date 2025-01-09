@@ -5,7 +5,7 @@ const MealsHeader = () => {
   return (
     <>
       <header className="w-1/2 space-y-2">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-5xl font-bold">
           Easy dinner <span className="text-primary">recipes</span>
         </h1>
         <p>
@@ -15,7 +15,7 @@ const MealsHeader = () => {
         </p>
         <p className="mt-11">
           <Link
-            href="/meals"
+            href="/comunity"
             className="text-xl text-black bg-primary font-semibold px-3 py-1 rounded-sm"
           >
             Share Your Favorite Recipe

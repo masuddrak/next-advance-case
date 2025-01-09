@@ -6,7 +6,6 @@ import React from "react";
 
 const NavLink = ({ href, children }) => {
   const path = usePathname();
-  console.log(path.startsWith());
 
   return (
     <li>

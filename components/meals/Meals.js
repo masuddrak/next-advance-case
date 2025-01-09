@@ -1,9 +1,9 @@
 import React from "react";
 import Meal from "./meal";
 
-const Meals = ({ meals }) => {
+const Meals = async ({ meals }) => {
   return (
-    <article>
+    <article className="grid grid-cols-4 gap-5">
       {meals.map((meal) => (
         <Meal key={meal.idMeal} meal={meal}></Meal>
       ))}
