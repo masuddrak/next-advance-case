@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-serif">
       <h1 className="text-center text-4xl">Langing Page</h1>
       <p>
         <Link href="/comunity">comunity</Link>

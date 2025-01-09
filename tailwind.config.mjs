@@ -7,10 +7,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
+        serif: ["Montserrat", "serif"],
       },
+      colors: { primary: "#58C4DC", secondary: "#FFFFFF" },
     },
   },
   plugins: [],
