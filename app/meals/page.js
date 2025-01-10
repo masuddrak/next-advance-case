@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-
+import "./loading.css";
 import Meals from "@/components/meals/Meals";
 import MealsHeader from "@/components/meals/MealsHeader";
 import { GetMeals } from "@/lib/GetMeals";
@@ -12,7 +12,9 @@ const MealsPage = async () => {
     <>
       <header className="my-10 space-y-5">
         <MealsHeader></MealsHeader>
-        <Suspense fallback={<p className="text-2xl">Loading............</p>}>
+        <Suspense
+          fallback={<p className="text-2xl loading">Loading............</p>}
+        >
           <MealContainer />
         </Suspense>
       </header>
