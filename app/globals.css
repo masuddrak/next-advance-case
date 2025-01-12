@@ -3,11 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #23272f;
-  --foreground: #ffffff;
-}
 /* 
 :root {
   --background: #ffffff;
@@ -26,7 +21,8 @@ body {
   background: var(--background);
  
 } */
-body {
-  color: var(--foreground);
-  background: var(--background);
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
 }

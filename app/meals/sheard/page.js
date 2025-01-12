@@ -1,7 +1,7 @@
 import React from "react";
 
-const SheardPage = () => {
-  return <div>SheardPage</div>;
+const SheardMealsPage = () => {
+  return <div>SheardMealsPage</div>;
 };
 
-export default SheardPage;
+export default SheardMealsPage;

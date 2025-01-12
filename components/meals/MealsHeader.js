@@ -15,7 +15,7 @@ const MealsHeader = () => {
         </p>
         <p className="mt-11">
           <Link
-            href="/comunity"
+            href="/meals/sheard"
             className="text-xl text-black bg-primary font-semibold px-3 py-1 rounded-sm"
           >
             Share Your Favorite Recipe
